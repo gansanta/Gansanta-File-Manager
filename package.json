@@ -1,0 +1,29 @@
+{
+  "name": "gansanta-file-manager",
+  "version": "1.0.0",
+  "description": "A file manager with single file taggable for multiple projects",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gansanta/Gansanta-File-Manager.git"
+  },
+  "keywords": [
+    "file",
+    "manager",
+    "taggable",
+    "file",
+    "manager"
+  ],
+  "author": "Gansanta Bhikkhu from Rajban Vihara, Rangamati, Bangladesh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gansanta/Gansanta-File-Manager/issues"
+  },
+  "homepage": "https://github.com/gansanta/Gansanta-File-Manager#readme",
+  "devDependencies": {
+    "electron": "^23.1.2"
+  }
+}
