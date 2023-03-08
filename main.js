@@ -10,7 +10,12 @@ const createWindow = () => {
     width: 800,
     height: 600,
     webPreferences: {
-      preload: path.join(__dirname, '/js/preload.js')
+        nodeIntegration: true,
+        webviewTag: true,
+        contextIsolation: false,
+        enableRemoteModule: true,
+        nodeIntegrationInWorker: true,
+        preload: path.join(__dirname, '/js/preload.js')
     }
   })
 
